@@ -1,0 +1,1182 @@
+Found 500 val images
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1         [-1, 64, 128, 256]           9,408
+       BatchNorm2d-2         [-1, 64, 128, 256]             128
+              ReLU-3         [-1, 64, 128, 256]               0
+         MaxPool2d-4          [-1, 64, 64, 128]               0
+            Conv2d-5          [-1, 64, 64, 128]          36,864
+       BatchNorm2d-6          [-1, 64, 64, 128]             128
+              ReLU-7          [-1, 64, 64, 128]               0
+            Conv2d-8          [-1, 64, 64, 128]          36,864
+       BatchNorm2d-9          [-1, 64, 64, 128]             128
+             ReLU-10          [-1, 64, 64, 128]               0
+       BasicBlock-11          [-1, 64, 64, 128]               0
+           Conv2d-12          [-1, 64, 64, 128]          36,864
+      BatchNorm2d-13          [-1, 64, 64, 128]             128
+             ReLU-14          [-1, 64, 64, 128]               0
+           Conv2d-15          [-1, 64, 64, 128]          36,864
+      BatchNorm2d-16          [-1, 64, 64, 128]             128
+             ReLU-17          [-1, 64, 64, 128]               0
+       BasicBlock-18          [-1, 64, 64, 128]               0
+           Conv2d-19          [-1, 64, 64, 128]          36,864
+      BatchNorm2d-20          [-1, 64, 64, 128]             128
+             ReLU-21          [-1, 64, 64, 128]               0
+           Conv2d-22          [-1, 64, 64, 128]          36,864
+      BatchNorm2d-23          [-1, 64, 64, 128]             128
+             ReLU-24          [-1, 64, 64, 128]               0
+       BasicBlock-25          [-1, 64, 64, 128]               0
+           Conv2d-26          [-1, 128, 32, 64]          73,728
+      BatchNorm2d-27          [-1, 128, 32, 64]             256
+             ReLU-28          [-1, 128, 32, 64]               0
+           Conv2d-29          [-1, 128, 32, 64]         147,456
+      BatchNorm2d-30          [-1, 128, 32, 64]             256
+           Conv2d-31          [-1, 128, 32, 64]           8,192
+      BatchNorm2d-32          [-1, 128, 32, 64]             256
+             ReLU-33          [-1, 128, 32, 64]               0
+       BasicBlock-34          [-1, 128, 32, 64]               0
+           Conv2d-35          [-1, 128, 32, 64]         147,456
+      BatchNorm2d-36          [-1, 128, 32, 64]             256
+             ReLU-37          [-1, 128, 32, 64]               0
+           Conv2d-38          [-1, 128, 32, 64]         147,456
+      BatchNorm2d-39          [-1, 128, 32, 64]             256
+             ReLU-40          [-1, 128, 32, 64]               0
+       BasicBlock-41          [-1, 128, 32, 64]               0
+           Conv2d-42          [-1, 128, 32, 64]         147,456
+      BatchNorm2d-43          [-1, 128, 32, 64]             256
+             ReLU-44          [-1, 128, 32, 64]               0
+           Conv2d-45          [-1, 128, 32, 64]         147,456
+      BatchNorm2d-46          [-1, 128, 32, 64]             256
+             ReLU-47          [-1, 128, 32, 64]               0
+       BasicBlock-48          [-1, 128, 32, 64]               0
+           Conv2d-49          [-1, 128, 32, 64]         147,456
+      BatchNorm2d-50          [-1, 128, 32, 64]             256
+             ReLU-51          [-1, 128, 32, 64]               0
+           Conv2d-52          [-1, 128, 32, 64]         147,456
+      BatchNorm2d-53          [-1, 128, 32, 64]             256
+             ReLU-54          [-1, 128, 32, 64]               0
+       BasicBlock-55          [-1, 128, 32, 64]               0
+           Conv2d-56          [-1, 256, 16, 32]         294,912
+      BatchNorm2d-57          [-1, 256, 16, 32]             512
+             ReLU-58          [-1, 256, 16, 32]               0
+           Conv2d-59          [-1, 256, 16, 32]         589,824
+      BatchNorm2d-60          [-1, 256, 16, 32]             512
+           Conv2d-61          [-1, 256, 16, 32]          32,768
+      BatchNorm2d-62          [-1, 256, 16, 32]             512
+             ReLU-63          [-1, 256, 16, 32]               0
+       BasicBlock-64          [-1, 256, 16, 32]               0
+           Conv2d-65          [-1, 256, 16, 32]         589,824
+      BatchNorm2d-66          [-1, 256, 16, 32]             512
+             ReLU-67          [-1, 256, 16, 32]               0
+           Conv2d-68          [-1, 256, 16, 32]         589,824
+      BatchNorm2d-69          [-1, 256, 16, 32]             512
+             ReLU-70          [-1, 256, 16, 32]               0
+       BasicBlock-71          [-1, 256, 16, 32]               0
+           Conv2d-72          [-1, 256, 16, 32]         589,824
+      BatchNorm2d-73          [-1, 256, 16, 32]             512
+             ReLU-74          [-1, 256, 16, 32]               0
+           Conv2d-75          [-1, 256, 16, 32]         589,824
+      BatchNorm2d-76          [-1, 256, 16, 32]             512
+             ReLU-77          [-1, 256, 16, 32]               0
+       BasicBlock-78          [-1, 256, 16, 32]               0
+           Conv2d-79          [-1, 256, 16, 32]         589,824
+      BatchNorm2d-80          [-1, 256, 16, 32]             512
+             ReLU-81          [-1, 256, 16, 32]               0
+           Conv2d-82          [-1, 256, 16, 32]         589,824
+      BatchNorm2d-83          [-1, 256, 16, 32]             512
+             ReLU-84          [-1, 256, 16, 32]               0
+       BasicBlock-85          [-1, 256, 16, 32]               0
+           Conv2d-86          [-1, 256, 16, 32]         589,824
+      BatchNorm2d-87          [-1, 256, 16, 32]             512
+             ReLU-88          [-1, 256, 16, 32]               0
+           Conv2d-89          [-1, 256, 16, 32]         589,824
+      BatchNorm2d-90          [-1, 256, 16, 32]             512
+             ReLU-91          [-1, 256, 16, 32]               0
+       BasicBlock-92          [-1, 256, 16, 32]               0
+           Conv2d-93          [-1, 256, 16, 32]         589,824
+      BatchNorm2d-94          [-1, 256, 16, 32]             512
+             ReLU-95          [-1, 256, 16, 32]               0
+           Conv2d-96          [-1, 256, 16, 32]         589,824
+      BatchNorm2d-97          [-1, 256, 16, 32]             512
+             ReLU-98          [-1, 256, 16, 32]               0
+       BasicBlock-99          [-1, 256, 16, 32]               0
+          Conv2d-100           [-1, 512, 8, 16]       1,179,648
+     BatchNorm2d-101           [-1, 512, 8, 16]           1,024
+            ReLU-102           [-1, 512, 8, 16]               0
+          Conv2d-103           [-1, 512, 8, 16]       2,359,296
+     BatchNorm2d-104           [-1, 512, 8, 16]           1,024
+          Conv2d-105           [-1, 512, 8, 16]         131,072
+     BatchNorm2d-106           [-1, 512, 8, 16]           1,024
+            ReLU-107           [-1, 512, 8, 16]               0
+      BasicBlock-108           [-1, 512, 8, 16]               0
+          Conv2d-109           [-1, 512, 8, 16]       2,359,296
+     BatchNorm2d-110           [-1, 512, 8, 16]           1,024
+            ReLU-111           [-1, 512, 8, 16]               0
+          Conv2d-112           [-1, 512, 8, 16]       2,359,296
+     BatchNorm2d-113           [-1, 512, 8, 16]           1,024
+            ReLU-114           [-1, 512, 8, 16]               0
+      BasicBlock-115           [-1, 512, 8, 16]               0
+          Conv2d-116           [-1, 512, 8, 16]       2,359,296
+     BatchNorm2d-117           [-1, 512, 8, 16]           1,024
+            ReLU-118           [-1, 512, 8, 16]               0
+          Conv2d-119           [-1, 512, 8, 16]       2,359,296
+     BatchNorm2d-120           [-1, 512, 8, 16]           1,024
+            ReLU-121           [-1, 512, 8, 16]               0
+      BasicBlock-122           [-1, 512, 8, 16]               0
+================================================================
+Total params: 21,284,672
+Trainable params: 21,284,672
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 1.50
+Forward/backward pass size (MB): 251.50
+Params size (MB): 81.19
+Estimated Total Size (MB): 334.19
+----------------------------------------------------------------
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+   ConvTranspose2d-1          [-1, 256, 16, 32]         524,544
+            Conv2d-2          [-1, 256, 16, 32]         590,080
+      Conv2_discon-3          [-1, 256, 16, 32]               0
+   Up_disconnected-4          [-1, 256, 16, 32]               0
+   ConvTranspose2d-5          [-1, 128, 32, 64]         131,200
+            Conv2d-6          [-1, 128, 32, 64]         147,584
+      Conv2_discon-7          [-1, 128, 32, 64]               0
+   Up_disconnected-8          [-1, 128, 32, 64]               0
+   ConvTranspose2d-9          [-1, 64, 64, 128]          32,832
+           Conv2d-10          [-1, 64, 64, 128]          36,928
+     Conv2_discon-11          [-1, 64, 64, 128]               0
+  Up_disconnected-12          [-1, 64, 64, 128]               0
+  ConvTranspose2d-13         [-1, 32, 128, 256]           8,224
+           Conv2d-14         [-1, 32, 128, 256]           9,248
+     Conv2_discon-15         [-1, 32, 128, 256]               0
+  Up_disconnected-16         [-1, 32, 128, 256]               0
+  ConvTranspose2d-17         [-1, 16, 256, 512]           2,064
+           Conv2d-18         [-1, 16, 256, 512]           2,320
+     Conv2_discon-19         [-1, 16, 256, 512]               0
+  Up_disconnected-20         [-1, 16, 256, 512]               0
+           Conv2d-21         [-1, 19, 256, 512]             323
+          segment-22         [-1, 19, 256, 512]               0
+================================================================
+Total params: 1,485,347
+Trainable params: 1,485,347
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.25
+Forward/backward pass size (MB): 162.00
+Params size (MB): 5.67
+Estimated Total Size (MB): 167.92
+----------------------------------------------------------------
+Loading model and optimizer from checkpoint './ICIP_weights_and_results/feature_model_12_2_lr1.pkl'
+Loaded checkpoint './ICIP_weights_and_results/feature_model_12_2_lr1.pkl' (epoch 249)
+Loading model and optimizer from checkpoint './ICIP_weights_and_results/segment_model_12_2_lr1.pkl'
+Loaded checkpoint './ICIP_weights_and_results/segment_model_12_2_lr1.pkl' (epoch 249)
+Loading model and optimizer from checkpoint './ICIP_weights_and_results/reconstruct_model_12_2_lr1.pkl'
+Loaded checkpoint './ICIP_weights_and_results/reconstruct_model_12_2_lr1.pkl' (epoch 249)
+Loaded checkpoint './ICIP_weights_and_results/depth_model_12_2_lr1.pkl' (epoch 249)
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000026_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000029_000019_leftImg8bit.png
+WARN: resizing labels yielded fewer classes
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000058_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000038_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000057_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000045_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000008_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_012519_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_029086_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_058504_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_005703_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_011835_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_062653_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_007285_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_013710_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_001751_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_068772_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_029600_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_030669_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_062793_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_028854_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_058914_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_046126_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_073088_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_005410_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_015676_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_005898_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_010351_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_072295_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_023235_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_075984_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_011715_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_041517_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_067178_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_004736_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_066574_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_009561_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_003025_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_041074_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_002646_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000002_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000143_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000032_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000039_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000056_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000028_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000082_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000006_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000025_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000085_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000063_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000077_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000124_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000010_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000098_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000005_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000016_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000112_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000108_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000126_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000158_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000038_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000006_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000048_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000036_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000004_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000021_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000011_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000053_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_012868_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_063045_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_034047_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_064130_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_007622_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_008206_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_018797_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_083029_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_077092_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_021406_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_007407_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_049698_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_038645_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_002759_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_065617_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_082466_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_038844_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_020046_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_055538_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_019854_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_010830_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_003920_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_077233_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_046779_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_001464_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_004859_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_017101_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_048355_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_073911_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_083852_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_011461_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_021825_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_067295_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_060422_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000044_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000100_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000148_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000041_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000147_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000121_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000159_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000080_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000150_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000104_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000008_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000129_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000161_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000128_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000004_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000096_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000132_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000024_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000142_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000045_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000135_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000013_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000041_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000015_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000007_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000028_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000025_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000016_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000024_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_061763_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_060135_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_000538_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_073464_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_068682_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_037705_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_050686_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_003357_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_032556_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_012870_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_044525_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_034816_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_064651_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_080391_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_010763_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_062250_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_067735_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_046272_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_003588_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_022797_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_014221_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_024927_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_025713_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_048196_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_025512_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_065160_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_021667_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_020215_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_004617_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_015091_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_005543_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_014406_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_032711_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000046_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000036_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000067_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000040_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000075_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000089_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000066_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000119_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000154_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000097_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000122_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000052_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000053_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000113_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000118_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000088_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000111_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000060_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000168_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000160_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000033_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000020_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000035_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000039_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000000_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000043_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000018_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000050_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000047_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000002_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_058057_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_065850_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_062509_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_067092_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_043395_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_051516_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_002963_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_020693_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_051737_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_057478_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_080830_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_076502_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_035144_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_014480_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_082087_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_011162_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_005898_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_054077_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_055387_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_044227_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_001236_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_017476_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_027325_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_078803_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_008200_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_062016_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_003056_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_044413_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_049209_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_020321_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_009969_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_028590_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_023769_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000054_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000115_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000095_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000022_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000087_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000131_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000062_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000114_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000076_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000165_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000149_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000137_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000009_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000109_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000139_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000068_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000162_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000018_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000083_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000047_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000145_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000170_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000001_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000030_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000051_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000031_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000027_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000014_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000055_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_038418_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_010444_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_057181_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_058176_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_042384_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_080091_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_042098_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_028335_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_055306_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_062396_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_040732_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_020287_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_051807_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_054219_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_054640_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_005184_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_012038_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_068208_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_033655_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_016029_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_056580_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_016273_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_011074_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_057954_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_071288_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_059642_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_012738_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_064305_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_079206_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_020880_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_044658_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_022254_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_028232_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_015389_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000019_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000101_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000073_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000116_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000042_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000172_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000078_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000017_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000072_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000079_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000094_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000141_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000014_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000070_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000043_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000134_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000057_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000049_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000027_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000034_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000037_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000040_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000023_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000022_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000044_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000056_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000005_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000019_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000017_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_017459_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_013496_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_001016_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_017842_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_055172_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_067474_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_048654_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_044787_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_013240_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_000576_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_055062_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_019607_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_016286_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_032942_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_008688_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_053102_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_002196_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_007365_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_068063_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_066438_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_059119_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_013942_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_000294_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_047178_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_012699_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_049770_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_004327_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_031416_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_010156_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_030067_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_039895_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_049298_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_009291_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000084_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000152_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000026_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000171_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000012_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000106_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000140_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000029_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000065_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000156_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000051_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000071_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000011_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000059_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000090_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000107_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000157_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000001_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000069_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000093_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000055_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000035_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000012_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000042_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000034_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000049_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000003_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000009_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000046_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_011810_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_014741_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_002512_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_071781_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_015768_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_012009_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_021879_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_031266_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_041664_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_055603_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_017228_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_075296_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_061682_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_054884_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_049078_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_072155_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_064925_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_083199_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_041354_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_007973_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_014565_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_040575_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_025921_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_066832_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_052120_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_069633_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_059789_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_047552_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_055709_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_054415_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_042733_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_013016_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_009854_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000091_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000064_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000169_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000144_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000130_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000110_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000000_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000102_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000015_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000021_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000136_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000123_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000074_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000050_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000164_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000166_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000105_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000003_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000081_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000013_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000092_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000153_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000054_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000033_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000032_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000020_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000052_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000010_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/lindau/lindau_000037_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_050149_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_043564_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_013067_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_007857_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_060545_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_006589_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_064798_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_008451_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_035864_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_029236_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_060906_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_032018_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_023369_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_073243_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_018113_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_030310_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_046504_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_009688_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_015328_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_016005_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_012121_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_010600_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_077434_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_019698_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_066092_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_013382_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000000_011007_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_019969_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_016462_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_009504_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_038245_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_070099_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_052594_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/frankfurt/frankfurt_000001_009058_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000138_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000117_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000151_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000103_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000099_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000127_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000125_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000167_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000120_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000058_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000155_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000023_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000173_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000133_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000048_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000086_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000146_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000030_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000031_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000007_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000061_000019_leftImg8bit.png
+/local-scratch/saeedr/Semantic_coding/Data/CitySpace_Dataset/leftImg8bit/val/munster/munster_000163_000019_leftImg8bit.png
+33554
+34290
+36034
+33010
+34347
+30583
+31447
+34567
+32652
+31762
+34626
+32900
+38080
+35275
+33805
+34536
+33495
+33856
+37537
+34035
+33472
+32871
+33895
+31777
+35055
+30122
+34842
+37686
+35466
+30681
+33742
+34425
+34265
+33135
+36546
+33108
+33509
+34728
+30800
+33248
+36443
+36862
+30340
+31694
+36184
+34325
+32930
+33835
+34151
+32021
+33999
+34359
+38902
+34330
+33709
+31686
+32775
+34591
+35579
+33119
+33308
+34130
+32624
+33834
+34259
+35907
+36380
+33024
+32631
+32179
+32578
+33074
+31989
+33464
+31373
+34433
+31967
+33469
+32259
+32809
+30642
+32141
+34517
+32025
+31199
+35568
+31162
+35395
+35311
+33692
+33686
+30309
+33039
+33252
+33700
+38311
+32860
+32377
+35999
+32115
+33647
+32548
+31393
+32619
+32207
+36151
+32545
+32926
+31740
+32665
+31453
+35009
+32302
+36165
+31972
+31816
+34461
+31935
+31645
+36184
+33063
+35932
+31723
+32922
+33723
+32404
+32339
+34079
+34166
+31233
+33644
+36422
+30813
+35009
+34684
+34879
+29155
+33823
+32849
+35635
+30694
+34352
+33027
+34855
+31453
+32030
+32992
+38615
+33298
+39273
+30718
+35212
+31941
+36008
+32941
+34040
+33339
+34081
+33209
+31848
+35490
+30841
+33728
+33117
+37080
+34148
+32420
+32020
+34150
+31645
+32756
+31779
+32648
+30888
+30909
+34831
+34511
+31260
+33159
+32530
+32424
+33756
+32686
+30561
+38502
+28990
+31958
+32550
+34902
+36742
+31852
+35098
+32419
+34462
+32533
+30198
+33534
+32295
+32595
+33555
+32260
+35273
+33296
+33620
+33959
+33180
+32877
+32997
+31495
+31978
+30773
+34225
+33803
+33660
+33252
+30581
+31881
+32677
+32956
+34469
+29891
+35208
+33019
+32635
+33784
+32774
+33035
+36718
+33439
+32590
+31671
+32965
+33295
+31842
+34042
+33813
+36523
+33194
+32355
+32478
+33169
+32085
+35489
+32794
+31578
+32589
+34713
+35435
+32550
+32403
+35474
+35535
+32662
+30954
+33678
+36637
+30613
+34817
+35078
+33350
+32765
+31788
+31756
+32873
+31280
+33710
+38475
+30921
+37365
+32654
+33123
+32813
+33061
+33160
+33049
+34150
+32211
+35373
+34195
+31768
+33556
+34992
+32370
+32864
+31054
+32239
+31943
+34004
+31459
+32891
+33142
+32097
+31328
+31573
+33114
+32678
+32971
+35302
+34660
+33941
+33354
+33136
+35159
+35059
+32465
+33748
+30815
+33721
+33109
+32410
+41409
+32118
+32117
+31370
+34510
+32846
+33858
+33975
+33717
+34958
+36576
+32571
+32102
+32043
+32740
+32509
+32549
+32531
+31977
+35301
+32137
+32267
+32163
+31780
+34434
+33310
+30235
+32384
+34194
+32581
+32662
+30305
+29759
+32076
+33552
+32807
+35118
+35040
+32270
+31922
+33616
+31241
+30011
+33115
+32476
+32861
+34001
+31161
+29476
+33756
+33519
+32119
+33029
+35289
+30954
+31710
+32324
+31849
+30085
+31300
+31005
+36276
+35119
+29672
+31119
+36254
+32943
+33339
+34930
+32885
+32820
+34753
+32782
+32689
+32720
+31303
+32301
+34490
+34636
+33375
+32189
+31166
+30875
+35735
+33617
+30855
+31545
+37134
+31703
+32986
+33197
+33100
+32600
+32249
+31471
+32389
+31474
+33946
+32757
+29810
+32335
+29666
+32658
+32991
+31962
+31703
+33326
+32093
+30503
+32002
+34204
+28687
+31718
+31176
+34881
+33270
+33115
+35586
+31199
+31848
+31123
+32418
+29550
+33441
+32387
+31454
+31163
+29832
+35416
+36298
+34096
+31446
+32500
+32430
+35780
+30180
+32022
+32654
+31692
+33403
+31867
+34070
+32358
+33220
+30945
+33178
+31993
+31510
+33334
+31166
+32430
+33867
+30257
+31443
+31920
+31841
+31731
+31888
+30869
+30843
+34666
+31553
+32464
+32285
+32598
+32536
+33055
+36746
+31472
+29027
+33668
+34947
+31907
+32150
+34268
+32947
+32368
+31720
+31938
+34392
+35042
+33706
+31457
+33371
+33869
+32422
+31908
+31118
+32981
+33661
+Mean IoU : 	 0.5604513712100744
+PSNR : 	 26.236755653827434
+RMS : 	 8.208766808509827
