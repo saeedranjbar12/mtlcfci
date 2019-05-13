@@ -6,7 +6,7 @@ This repository is for reproducing the results of the fallowing paper
 S. R. Alvar and I. V. Bajić, "Multi-task learning with compressible features for Collaborative Intelligence".
 arXiv preprint arXiv:1902.05179.
 ```
-To run the code you need Pytorch = 0.4 and the Python=3.5.2. The model weights are in [here](https://drive.google.com/drive/folders/1QX26GjOz-j1kjf_tkhth9vdARXhIOSQ0?usp=sharing). The names of the weight files is the encoder type (256 or  512)_ (1=baseline or 2=proposed) 
+To run the code you need Pytorch = 0.4 and the Python=3.5.2. The model weights are in [here](https://drive.google.com/drive/folders/1QX26GjOz-j1kjf_tkhth9vdARXhIOSQ0?usp=sharing). The name of the weight file is task_(encoder_type= 256 or  512)_(1=baseline or 2=proposed).pkl
 
 There are 4 sets of experiments: 
 1. Encoder (512x8x16)  baseline 
@@ -21,7 +21,7 @@ python ./write_features_3_tasks_512.py --dataset cityscapes --img_rows 256 --img
 ```
 For encoder 256x16x32 change 512 to 256.
 
-Cityscapes dataset is needed and you should update the directory of the dataset in the config.jason file. 
+Cityscapes dataset is needed and you should update the directory of the dataset in the config.json file. 
 
 After the results obtained, you can use the bjontegaard2.m to get the results in table 1. 
 
