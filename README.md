@@ -4,7 +4,7 @@ This repository is for reproducing the results of the fallowing paper
 
 ```
 S. R. Alvar and I. V. Bajić, "Multi-task learning with compressible features for Collaborative Intelligence".
-arXiv preprint arXiv:1902.05179.
+accepted for presentation at IEEE ICIP'19, Taipei, Taiwan, Sep. 2019.
 ```
 To run the code you need Pytorch = 0.4 and the Python=3.5.2. The model weights are in [here](https://drive.google.com/drive/folders/1QX26GjOz-j1kjf_tkhth9vdARXhIOSQ0?usp=sharing). The name of the weight file is task_(encoder_type= 256 or  512)_(1=baseline or 2=proposed).pkl
 
